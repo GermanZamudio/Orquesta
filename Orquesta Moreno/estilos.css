@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: ;
+    background:linear-gradient(rgba(0,0,5), rgb(255,255,255));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Seccion presentacion*/
+.logo{
+    height:80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.presentacion{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: rgb(245,245,245);
+}
+
+#imagen{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 35em;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte%2C_North_Carolina.jpg/1200px-Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte%2C_North_Carolina.jpg?20110624122626);
+    border-radius: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1300px;
+    margin:auto;
+    }
+
+/*Seccion content*/
+.content
+{
+    max-width: 1300px;
+    margin:auto;
+    position:relative;
+}
+.content h1{
+    font-size: 3em;
+    color: rgb(255,255,255);
+    position:absolute;
+    margin-bottom: 200px;
+}
+
+
+/*Seccion Instrumentos*/
+
+#instrumentos{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.container{
+    
+    margin:10px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+/*Aqui comienzan las capas*/
+.container .figure{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    overflow: hidden; 
+    /*Todo lo que esta fuera 
+    de las dimensiones delimitadas se oculta*/
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,1); /*Sombra*/
+    
+}
+.container .figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms-out;
+}
+.container .figure .capa {
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity:0;
+    visibility: hidden;
+    text-align: center;
+        
+}
+.container .figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.container .figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+ }
+ .container .figure .capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    transition: all 500ms ease-out;
+
+}
+.container .figure .capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    transition: all 500ms ease-out;
+}
+
+/*Capa2*/
+.container .figure2{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    overflow: hidden; 
+    /*Todo lo que esta fuera 
+    de las dimensiones delimitadas se oculta*/
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,1); /*Sombra*/
+    
+}
+.container .figure2 img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms-out;
+}
+.container .figure2 .capa {
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity:0;
+    visibility: hidden;
+    text-align: center;
+    
+}
+.container .figure2:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.container .figure2:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+ }
+ .container .figure2 .capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    transition: all 500ms ease-out;
+
+}
+.container .figure2 .capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    transition: all 500ms ease-out;
+}
+
+/*Capa3*/
+.container .figure3{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    overflow: hidden; 
+    /*Todo lo que esta fuera 
+    de las dimensiones delimitadas se oculta*/
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,1); /*Sombra*/
+    
+}
+.container .figure3 img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms-out;
+}
+.container .figure3 .capa {
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity:0;
+    visibility: hidden;
+    text-align: center;
+    
+}
+.container .figure3:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.container .figure3:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+ }
+ .container .figure3 .capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    transition: all 500ms ease-out;
+
+}
+.container .figure3 .capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    transition: all 500ms ease-out;
+}
+
+/*Capa4*/
+.container .figure4{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    overflow: hidden; 
+    /*Todo lo que esta fuera 
+    de las dimensiones delimitadas se oculta*/
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,1); /*Sombra*/
+    
+}
+.container .figure4 img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms-out;
+}
+.container .figure4 .capa {
+    position:absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity:0;
+    visibility: hidden;
+    text-align: center;
+    
+}
+.container .figure4:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.container .figure4:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    
+ }
+ .container .figure4 .capa h3
+{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    margin-top: 30px;
+    transition: all 500ms ease-out;
+
+}
+.container .figure4 .capa p
+{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+    transition: all 500ms ease-out;
+}

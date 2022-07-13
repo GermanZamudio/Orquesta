@@ -1,0 +1,11 @@
+.url{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    
+}
+.url a img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
