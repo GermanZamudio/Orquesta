@@ -13,7 +13,7 @@ body{
 
 /*Seccion presentacion*/
 .logo{
-    height:80px;
+    height:4em;
     border-radius: 50%;
     padding: 5px;
 }
@@ -21,8 +21,23 @@ body{
     display: flex;
     padding: 10px;
     align-items: center;
+    font-size: 15px;
     color: rgb(245,245,245);
+    transition: all 500ms-out;
 }
+
+@media only screen and (max-width: 700px) 
+{
+    .presentacion {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        align-items: center;
+        font-size: 15px;
+        color: rgb(245,245,245);
+        transition: all 500ms-out;
+    }
+  }
 
 #imagen{
     display: flex;
@@ -31,13 +46,13 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 30px;
-    height: 35em;
+    height: 25em;
     background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte%2C_North_Carolina.jpg/1200px-Dublin_Philharmonic_Orchestra_performing_Tchaikovsky%27s_Symphony_No_4_in_Charlotte%2C_North_Carolina.jpg?20110624122626);
     border-radius: 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1300px;
+    max-width: 1000px;
     margin:auto;
     }
 
@@ -62,6 +77,8 @@ body{
     max-width: 1300px;
     display:flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
    
 }
 .container{
@@ -74,11 +91,13 @@ body{
     margin-left: 50px;
 }
 
+
+
 /*Aqui comienzan las capas*/
 .container .figure{
     position: relative;
     height: 200px;
-    width: 250px;
+  
     overflow: hidden; 
     /*Todo lo que esta fuera 
     de las dimensiones delimitadas se oculta*/
@@ -137,7 +156,7 @@ body{
 .container .figure2{
     position: relative;
     height: 200px;
-    width: 250px;
+    
     overflow: hidden; 
     /*Todo lo que esta fuera 
     de las dimensiones delimitadas se oculta*/
@@ -195,7 +214,7 @@ body{
 .container .figure3{
     position: relative;
     height: 200px;
-    width: 250px;
+    
     overflow: hidden; 
     /*Todo lo que esta fuera 
     de las dimensiones delimitadas se oculta*/
@@ -253,7 +272,7 @@ body{
 .container .figure4{
     position: relative;
     height: 200px;
-    width: 250px;
+    
     overflow: hidden; 
     /*Todo lo que esta fuera 
     de las dimensiones delimitadas se oculta*/

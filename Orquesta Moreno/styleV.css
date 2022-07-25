@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:radial-gradient(rgb(193, 193, 193), rgba(83, 39, 29, 0.836));
+}
+
+/*Seccion presentacion*/
+.logo{
+    height:6em;
+    border-radius: 100%;
+    padding: 5px;
+}
+.presentacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    transition: all 500ms-out;
+
+}
+.presentacion h3 {
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+}
+
+/*Seccion Cuerdas*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+/*Seccion Violin 1*/
+    .violin1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+       
+    
+    }
+
+    .Nombre{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        max-width: 1300px;
+        color: rgb(167, 154, 154);
+        background-color: rgba(102, 48, 39, 0.842);
+        border-radius: 50%;
+    }
+
+
+    .marchare{
+    
+        text-decoration: none;
+        margin: 20px;
+        color: rgb(210, 216, 224);
+        
+    }
+
+    .contenedor{
+        width: 200px;
+        height: 300px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6l_BpzVqE-RLU8Wdoc13col0XZNeoc96mjQ&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 60px;
+    }
+    .contenedor:hover>h1{
+        font-size: 30px;
+       
+    }
+    .contenedor:hover{
+        width: 250px;
+        height: 350px;
+    }
+
+    .marchare a img{
+        height: 200px;
+        width: 150px;
+    }
+    .marchare a{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
+
+/*Seccion Violin 2*/
+    .violin2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .Nombre2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        max-width: 1300px;
+        color: rgb(167, 154, 154);
+        background-color: rgba(102, 48, 39, 0.842);
+        border-radius: 50%;
+    }
+
+/*Seccion Violin 3*/
+    .violin3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .Nombre3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        max-width: 1300px;
+        color: rgb(167, 154, 154);
+        background-color: rgba(102, 48, 39, 0.842);
+        border-radius: 50%;
+    }
+
+
+/*Seccion Viola*/
+    .viola{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .Nombre4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        max-width: 1300px;
+        color: rgb(167, 154, 154);
+        background-color: rgba(102, 48, 39, 0.842);
+        border-radius: 50%;
+    }
+
+
+/*Momento
+
+    .container .violin1 {
+        transition: all 1000ms ease-out;
+        opacity:0;
+        height: 60px;
+    
+            
+    }
+    .container .violin1:hover {
+        opacity: 1; 
+        cursor: pointer;
+        height: 500px;
+    }
+
+    
+    .container .violin2 {
+        transition: all 800ms ease-out;
+        opacity:0;
+        height: 60px;
+    
+            
+    }
+    .container .violin2:hover {
+        opacity: 1; 
+        cursor: pointer;
+        height: 500px;
+    }
+
+
+    .container .violin3 {
+        transition: all 800ms ease-out;
+        opacity:0;
+        height: 60px;
+    
+            
+    }
+    .container .violin3:hover {
+        opacity: 1; 
+        cursor: pointer;
+        height: 500px;
+    }
+
+    .container .viola {
+        transition: all 800ms ease-out;
+        opacity:0;
+        height: 60px;
+    
+            
+    }
+    .container .viola:hover {
+        opacity: 1; 
+        cursor: pointer;
+        height: 500px;
+    }*/
